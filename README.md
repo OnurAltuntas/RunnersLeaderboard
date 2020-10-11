@@ -15,7 +15,8 @@ You need to familiar node.js and npm
 -node.js on your machine
 ```
 ### Installing
-1.[setup for node](https://nodejs.org/en)
+
+1.* [setup for node](https://nodejs.org/en)
 2.clone or download repo from [here](https://github.com/OnurAltuntas/RunnersLeaderboard.git) 
 3.cd server
 4.npm install
@@ -47,10 +48,6 @@ Explain what these tests test and why
 ```
 Give an example
 ```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
