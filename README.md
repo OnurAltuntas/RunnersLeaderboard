@@ -16,7 +16,7 @@ You need to familiar node.js and npm
 ```
 ### Installing
 
-* [React.js](https://tr.reactjs.org/) - The web framework used
+1.setup node.js
 2.clone or download repo from [here](https://github.com/OnurAltuntas/RunnersLeaderboard.git) 
 3.cd server
 4.npm install
