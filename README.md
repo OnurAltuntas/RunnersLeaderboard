@@ -27,7 +27,7 @@ You need to familiar node.js and npm
 9.npm start
 
 ```
-![alt text](https://user-images.githubusercontent.com/53194850/95687263-25021880-0c0b-11eb-942a-0f6f6133bd3a.PNG)
+![alt text](https://user-images.githubusercontent.com/53194850/95687467-7b238b80-0c0c-11eb-8dd8-26db822e004f.PNG)
 
 ## Running the tests
 
