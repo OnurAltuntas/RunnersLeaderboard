@@ -5,7 +5,7 @@ I chose React.js for frontend framework and I chose express.js for backend becau
 These are the frameworks that I am most experienced and react is indispensable for real-time updated sites. First, I created this project
 with firebase realtime db because its the fastest way to create small project then i thought that way was a bit tricky and 
 was not showing my programming ability so i decided to use mySQL (support remote connect) database because,
-you gave me csv files to use for data and then I thought SQL is the most convenient way. I deployed mySQL db to heroku so you dont need to
+you gave me csv files to use for data so I thought SQL is the most convenient way. I deployed mySQL db to heroku so you dont need to
 setup mySQL or something else, project folder has mySQL remote config.
 
 ## Getting Started
@@ -16,7 +16,7 @@ You need to familiar node.js and npm
 ```
 ### Installing
 
-1.* [setup for node](https://nodejs.org/en)
+* [React.js](https://tr.reactjs.org/) - The web framework used
 2.clone or download repo from [here](https://github.com/OnurAltuntas/RunnersLeaderboard.git) 
 3.cd server
 4.npm install
