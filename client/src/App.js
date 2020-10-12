@@ -43,7 +43,7 @@ function App() {
   //divided into small function to get rid of mess code
   const header = () => {
     return (
-      <header>
+      <header data-testid="header">
         <a href="/#" className="logo">
           HEROGİ
         </a>
@@ -69,7 +69,7 @@ function App() {
   //divided into small function to get rid of mess code
   const background = () => {
     return (
-      <div className="custom-shape-divider-bottom-1602259178">
+      <div data-testid="background" className="custom-shape-divider-bottom-1602259178">
         <svg
           data-name="Layer 1"
           xmlns="http://www.w3.org/2000/svg"
@@ -88,7 +88,7 @@ function App() {
   //divided into small function to get rid of mess code
   const tableMenu = () => {
     return (
-      <div>
+      <div data-testid="tableMenu">
         <nav id="navigation">
           <ul className="links" style={{ float: "left" }}>
             <li className="dropdown">
@@ -201,7 +201,7 @@ function App() {
   };
 
   return (
-    <div>
+    <div data-testid="mainReturn">
       <div>
         <section className="sec">
           {/* render header  function*/}

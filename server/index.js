@@ -30,9 +30,9 @@ app.get('/api/get/:sortBy', (req,res) => {
 
     // to group by age 
     if(ageOption !='' && ageOption!=undefined){
-        sqlSelect = `SELECT users.username, users.age, users.userid, pace.distance, pace.total_time, (pace.total_time / (pace.distance/1000)) as 'avg_pace' FROM users INNER JOIN pace ON users.userid=pace.userid where (users.age >= ${ageOption1} && users.age <= ${ageOption2} )   order by ${sortOption}` ;
+        sqlSelect = `SELECT users.username, users.age, users.userid, pace.distance, pace.total_time, (pace.total_time / (pace.distance/1000)) as 'avg_pace' FROM users INNER JOIN pace ON users.userid=pace.userid where (users.age >= ${ageOption1} && users.age <= ${ageOption2} )   order by ${sortOption} DESC` ;
     }else{
-        sqlSelect = `SELECT users.username, users.age, users.userid, pace.distance, pace.total_time, (pace.total_time / (pace.distance/1000)) as 'avg_pace' FROM users INNER JOIN pace ON users.userid=pace.userid order by ${sortOption}` ;
+        sqlSelect = `SELECT users.username, users.age, users.userid, pace.distance, pace.total_time, (pace.total_time / (pace.distance/1000)) as 'avg_pace' FROM users INNER JOIN pace ON users.userid=pace.userid order by ${sortOption} DESC` ;
     }
     
     //to send result from mySQL server 
