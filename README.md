@@ -31,23 +31,11 @@ You need to familiar node.js and npm
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+1.cd client (for client-side test), cd server (for server-side test)
+2.npm run test
+3.press a (for run all tests)
 
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
+![alt text](https://user-images.githubusercontent.com/53194850/95771979-af5a8300-0cc4-11eb-9964-b64d371b87d5.PNG)
 
 ## Built With
 
