@@ -13,7 +13,7 @@ You need to familiar node.js and npm
 
 ### Prerequisites
 -node.js on your machine
-```
+
 ### Installing
 
 1.setup node.js
@@ -26,13 +26,13 @@ You need to familiar node.js and npm
 8.npm install 
 9.npm start
 
-```
+
 ![alt text](https://user-images.githubusercontent.com/53194850/95687467-7b238b80-0c0c-11eb-8dd8-26db822e004f.PNG)
 
 ```
 ## Running the tests
 
-1.cd client (for client-side test), cd server (for server-side test)
+1.cd client 
 2.npm run test
 3.press a (for run all tests)
 
