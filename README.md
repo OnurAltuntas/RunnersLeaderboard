@@ -1,6 +1,6 @@
 # RunnersLeaderboard
 
-This project is made for job application (study-case).
+This project is made for job application (case study).
 I chose React.js for frontend framework and I chose express.js for backend because 
 these are the frameworks that I am most experienced and react is indispensable for real-time updated sites. First, I created this project
 with firebase realtime db because its the fastest way to create small project then i thought that way was a bit tricky and 
