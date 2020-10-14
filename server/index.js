@@ -41,7 +41,8 @@ app.get('/api/get/:sortBy', (req,res) => {
     })
 })
 
-//just for testing backend  
+/
 app.listen(3001,() => {
+    //just for testing backend  
     console.log('running on ports 3001');
 })
