@@ -2,9 +2,9 @@
 
 This project is made for job application (study-case).
 I chose React.js for frontend framework and I chose express.js for backend because 
-These are the frameworks that I am most experienced and react is indispensable for real-time updated sites. First, I created this project
+these are the frameworks that I am most experienced and react is indispensable for real-time updated sites. First, I created this project
 with firebase realtime db because its the fastest way to create small project then i thought that way was a bit tricky and 
-was not showing my programming ability so i decided to use mySQL (support remote connect) database because,
+was not showing my programming ability so I decided to use mySQL (support remote connect) db because,
 you gave me csv files to use for data so I thought SQL is the most convenient way. I deployed mySQL db to heroku so you dont need to
 setup mySQL or something else, project folder has mySQL remote config.
 
